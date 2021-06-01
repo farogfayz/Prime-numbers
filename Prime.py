@@ -3,6 +3,8 @@ import math
 num = int(input("please give a number ->"))
 count = 0
 number = []
+
+#1st method
 if num > 1:
     for i in range(2, num):
         if num % i == 0:
@@ -10,7 +12,6 @@ if num > 1:
             count += 1
         else:
             count += 1
-
     if len(number) > 0:
         print(num, "is a composite number and the factors are ->", number)
         print("with first method number of iterations is :", count)
@@ -20,6 +21,7 @@ if num > 1:
 i = 2
 b = math.sqrt(num)
 
+#2nd method
 while num > 1 and i <= b:
     while num / i:
         num = num / i
