@@ -1,3 +1,4 @@
+#primatily cheaker
 import math
 num = int(input("please give a number ->"))
 count = 0
