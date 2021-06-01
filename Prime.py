@@ -18,7 +18,7 @@ if num>1:
 i=2
 b=math.sqrt(num)
 
-while num>1 and i<=b:
+while num>1 and i>=b:
     while num/i :
         num = num/i
         b=math.sqrt(num)
